@@ -1,80 +1,127 @@
-# Desafio proposto na Formação HTML Developer da DIO
+# 🏥 Desafio HTML – Clínica Médica  
+**Formação HTML Developer | DIO**
 
-## As instruções propostas pelo professor Diogo Mainardes seguem abaixo:
+Este projeto foi desenvolvido como parte do **Desafio Prático do Módulo 02 – HTML I: Conceitos Básicos**, da formação **HTML Developer** da **DIO (Digital Innovation One)**.
 
------------
+O desafio foi proposto pelo instrutor **Diogo Mainardes** e tem como foco a aplicação prática dos conceitos fundamentais de **HTML puro**, sem utilização de CSS ou JavaScript.
 
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+---
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+## 🎯 Objetivo do Projeto
 
-Além de outros recursos falados nas aulas!
+Criar um site institucional de uma **clínica médica**, simulando um cenário real, utilizando apenas **HTML**, aplicando corretamente:
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+- Estruturação de páginas
+- Semântica HTML
+- Organização de conteúdo
+- Navegação entre páginas
 
-Abaixo como cada página deve ser criada e estruturada.
+---
 
-### Estrutura das páginas
+## 📚 Conteúdos Abordados
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+Durante o desenvolvimento do projeto, foram aplicados os seguintes conteúdos estudados no módulo:
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+- Estruturação e formatação de texto  
+- Formulários HTML  
+- Tabelas  
+- Uso de mídias (imagens e iframe)  
+- Navegação entre páginas  
+- Estrutura base com **Header, Menu, Content e Footer**
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+---
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+## 🧩 Estrutura Geral do Site
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+Todas as páginas do site seguem um padrão estrutural definido no arquivo `template.html`, conforme proposto no desafio, respeitando a seguinte organização:
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
-
-3. **Menu** e **Footer** padrões em todas as páginas.
+- Header
+- Menu
+- Content
+- Footer
 
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+> 💡 Como o módulo ainda não contempla CSS, a estrutura visual foi mantida simples, com foco exclusivo na organização do HTML.
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+---
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+## 🗂️ Páginas Desenvolvidas
 
-Bora pra cima!
+### 🏠 Página Principal
+- Imagem no **Header**
+- Breve descrição institucional da clínica no **Content**
+- Menu de navegação e rodapé padrão
+
+---
+
+### 🏥 Sobre a Clínica
+- Imagem exclusiva no **Header**
+- Texto descritivo sobre a clínica, missão e valores
+- Menu e rodapé padrão
+
+---
+
+### ⏰ Horário de Atendimento
+- Imagem exclusiva no **Header**
+- Texto explicativo sobre os serviços oferecidos
+- Tabela de horários organizada por especialidade e dias da semana
+
+| Serviço          | Segunda a Sexta | Sábados     | Feriados   |
+|------------------|----------------|-------------|------------|
+| Clínica Geral    | 08h – 19h      | 08h – 14h   | 08h – 14h  |
+| Psicologia       | 08h – 19h      | 08h – 14h   | 08h – 14h  |
+| Pediatria        | 08h – 19h      | 08h – 18h   | —          |
+| Oftalmologia     | 08h – 19h      | 08h – 18h   | —          |
+
+---
+
+### 📞 Contato
+- Imagem exclusiva no **Header**
+- Informações de contato:
+  - Telefone
+  - WhatsApp
+  - Endereço completo
+- Iframe com **Google Maps**
+- Formulário de contato contendo:
+  - Nome
+  - E-mail
+  - Assunto
+  - Mensagem
+  - Botões de enviar e limpar formulário
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+
+> ⚠️ Foram utilizados CSS, mas o mesmo serviu apenas de complementação, visto que o mesmo ainda não foi abordado no curso de forma profunda.
+
+---
+
+## 🚀 Aprendizados Obtidos
+
+Com a realização deste desafio, foi possível:
+
+- Consolidar os conceitos fundamentais de HTML
+- Praticar a criação de sites com múltiplas páginas
+- Aplicar corretamente formulários, tabelas e mídias
+- Entender a importância da organização e semântica do código
+
+---
+
+## 📌 Desafio Proposto Por
+
+**Diogo Mainardes**  
+Instrutor da Formação HTML Developer – DIO
+
+---
+
+## 📎 Considerações Finais
+
+Este projeto faz parte do meu processo de aprendizado e evolução na área de desenvolvimento web.  
+Em etapas futuras, o projeto poderá ser aprimorado com **CSS** para estilização e **JavaScript** para interatividade.
+
+💪 **Bora pra cima!**
+
+
