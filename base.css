@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(62, 67, 67);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgba(88, 83, 104, 1);
+    min-height: 50px;
+    color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(34, 31, 31);
+}
+
+a:hover {
+  font-weight: bold;
+  color: rgb(75, 68, 68);
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer:hover{
+    color: white;
+    font-weight: bold;
+}
+
+span{
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.content p{
+    text-align: justify;
+}
+
+table{
+    -webkit-box-shadow: 1px 5px 32px -3px rgba(0,0,0,0.83); 
+    box-shadow: 1px 5px 32px -3px rgba(0,0,0,0.83);
+    border: solid gray 1px;
+}
+td{
+width: 200px;
+}
+caption{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+table tfoot{
+font-weight: bold;
+}
+table thead th{
+background-color: black;
+color: white;
+}
+table tfoot td{
+background-color: lightgray;
+}
+table tbody tr:nth-child(even) td{
+background-color: #f1f1f1;
+}
+
+table tbody tr:hover td{
+background-color: rgb(218, 228, 252);
+cursor: pointer;
+}
+
+.endereco p, h4{
+    margin: 0;
+    padding: 0px;
+}
+
+.endereco h4{
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+ .row{
+margin: 5px;
+}
+        
+label{
+width: 100px;
+display: inline-block;
+padding-right: 5px;
+margin: 5px;
+}
+fieldset{
+margin: 15px 0;
+border-radius: 10px;
+border-color: rgb(0, 0, 0);
+}
+
+input{
+    padding: 5px;
+    font-size: 16px;
+    margin: 3px;
+    width: 300px;
+}
